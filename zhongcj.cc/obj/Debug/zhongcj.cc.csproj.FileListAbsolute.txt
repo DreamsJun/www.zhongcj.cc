@@ -1,0 +1,7 @@
+D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.dll
+D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.pdb
+D:\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.dll
+D:\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb
+D:\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
+D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.dll
+D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb

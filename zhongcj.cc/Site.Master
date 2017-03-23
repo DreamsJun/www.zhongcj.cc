@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="zhongcj.cc.Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/UserControls/wuc_Render_TopMenu.ascx" TagPrefix="uc" TagName="TopMenu" %>
+<%@ Register Src="~/UserControls/wuc_Render_SerachProduct.ascx" TagPrefix="uc" TagName="SerachProduct" %>
+<%@ Register Src="~/UserControls/wuc_Render_ProductCategoryMenu.ascx" TagPrefix="uc" TagName="ProductCategoryMenu" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" type="text/css" href="/styles/core.css" />
+    <script type="text/javascript" language="javascript" src="/javascript/jquery-3.1.1.min.js"></script>
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="main">
+        <uc:TopMenu ID="TopMenu" runat="server" />
+        <div class="top_important">
+             <div class="logo">
+                  
+             </div>
+             <div class="search">
+                  <uc:SerachProduct ID="SerachProduct" runat="server" />
+             </div>
+        </div>
+        <div class="menu">
+             <div class="menu_center">
+                  <uc:ProductCategoryMenu ID="ProductCategoryMenu" runat="server" />
+                  <ul class="mc_ul">
+                      <li><a href="" target="_self">首页</a></li>
+                      <li><a href="" target="_self">商品中心</a></li>                      
+                      <li><a href="" target="_self">商品定制</a></li>
+                      <li><a href="" target="_self">积分商城</a></li>
+                  </ul>
+             </div>
+        </div>        
+        <asp:ContentPlaceHolder ID="Body" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
+<script type="text/javascript" language="javascript">
+
+</script>
