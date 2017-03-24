@@ -1,80 +1,81 @@
 ﻿$(function () {
-    var SlideLength = $('.slides li').size() - 1;
-    var NowCurrent = 0;
-    var Prev = 0;
+    var numpic = $('#slides li').size() - 1;
+    var nownow = 0;
+    var inout = 0;
     var TT = 0;
-    var Speed = 5000;
+    var SPEED = 5000;
 
 
-    $('.slides li').eq(0).siblings('li').css({ 'display': 'none' });
+    $('#slides li').eq(0).siblings('li').css({ 'display': 'none' });
 
 
-    var UlStrat = '<ul id="TabBtns">',
-		UlContent = '',
-		UlStop = '</ul>';
-    AddBtns();
-    var TabBtns = $('#TabBtns li');
-    var TabBtnsWidth = $('#TabBtns').width();
-    $('#TabBtns').css('left', (470 - TabBtnsWidth))
+    var ulstart = '<ul id="pagination">',
+		ulcontent = '',
+		ulend = '</ul>';
+    ADDLI();
+    var pagination = $('#pagination li');
+    var paginationwidth = $('#pagination').width();
+    $('#pagination').css('margin-left', (470 - paginationwidth))
 
-    TabBtns.eq(0).addClass('current')
-    //添加圆点按钮
-    function AddBtns() {
-        for (var i = 0; i <= SlideLength; i++) {
-            UlContent += '<li>' + '<a>' + (i + 1) + '</a>' + '</li>';
+    pagination.eq(0).addClass('current')
+
+    function ADDLI() {
+        //var lilicount = numpic + 1;
+        for (var i = 0; i <= numpic; i++) {
+            ulcontent += '<li>' + '<a href="javascript:viod(0)">' + (i + 1) + '</a>' + '</li>';
         }
 
-        $('.slides').after(UlStrat + UlContent + UlStop);
+        $('#slides').after(ulstart + ulcontent + ulend);
     }
 
-    TabBtns.on('click', DOTCHANGE)
+    pagination.on('click', DOTCHANGE)
 
     function DOTCHANGE() {
 
         var changenow = $(this).index();
 
-        $('.slides li').eq(NowCurrent).css('z-index', '900');
-        $('.slides li').eq(changenow).css({ 'z-index': '800' }).show();
-        TabBtns.eq(changenow).addClass('current').siblings('li').removeClass('current');
-        $('.slides li').eq(NowCurrent).fadeOut(400, function () { $('.slides li').eq(changenow).fadeIn(500); });
-        NowCurrent = changenow;
+        $('#slides li').eq(nownow).css('z-index', '900');
+        $('#slides li').eq(changenow).css({ 'z-index': '800' }).show();
+        pagination.eq(changenow).addClass('current').siblings('li').removeClass('current');
+        $('#slides li').eq(nownow).fadeOut(400, function () { $('#slides li').eq(changenow).fadeIn(500); });
+        nownow = changenow;
     }
 
-    TabBtns.mouseenter(function () {
-        Prev = 1;
+    pagination.mouseenter(function () {
+        inout = 1;
     })
 
-    TabBtns.mouseleave(function () {
-        Prev = 0;
+    pagination.mouseleave(function () {
+        inout = 0;
     })
 
-    function TabBanner() {
-        //下一个选中
-        var NextCurrent = NowCurrent + 1;
+    function GOGO() {
 
-        if (Prev == 1) {
+        var NN = nownow + 1;
+
+        if (inout == 1) {
         } else {
-            if (NowCurrent < SlideLength) {
-                $('.slides li').eq(NowCurrent).css('z-index', '900');
-                $('.slides li').eq(NextCurrent).css({ 'z-index': '800' }).show();
-                TabBtns.eq(NextCurrent).addClass('current').siblings('li').removeClass('current');
-                $('.slides li').eq(NowCurrent).fadeOut(400, function () { $('.slides li').eq(NextCurrent).fadeIn(500); });
-                NowCurrent += 1;
+            if (nownow < numpic) {
+                $('#slides li').eq(nownow).css('z-index', '900');
+                $('#slides li').eq(NN).css({ 'z-index': '800' }).show();
+                pagination.eq(NN).addClass('current').siblings('li').removeClass('current');
+                $('#slides li').eq(nownow).fadeOut(400, function () { $('#slides li').eq(NN).fadeIn(500); });
+                nownow += 1;
 
             } else {
-                NextCurrent = 0;
-                $('.slides li').eq(NowCurrent).css('z-index', '900');
-                $('.slides li').eq(NextCurrent).stop(true, true).css({ 'z-index': '800' }).show();
-                $('.slides li').eq(NowCurrent).fadeOut(400, function () { $('.slides li').eq(0).fadeIn(500); });
-                TabBtns.eq(NextCurrent).addClass('current').siblings('li').removeClass('current');
+                NN = 0;
+                $('#slides li').eq(nownow).css('z-index', '900');
+                $('#slides li').eq(NN).stop(true, true).css({ 'z-index': '800' }).show();
+                $('#slides li').eq(nownow).fadeOut(400, function () { $('#slides li').eq(0).fadeIn(500); });
+                pagination.eq(NN).addClass('current').siblings('li').removeClass('current');
 
-                NowCurrent = 0;
+                nownow = 0;
 
             }
         }
-        setTimeout(TabBanner, Speed);
+        TT = setTimeout(GOGO, SPEED);
     }
 
-    setTimeout(TabBanner, Speed);
+    TT = setTimeout(GOGO, SPEED);
 
 })

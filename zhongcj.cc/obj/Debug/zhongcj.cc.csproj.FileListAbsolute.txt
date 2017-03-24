@@ -5,3 +5,17 @@ D:\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb
 D:\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
 D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.dll
 D:\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb
+E:\WebSites\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.dll
+E:\WebSites\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.pdb
+E:\WebSites\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.dll
+E:\WebSites\zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb
+E:\WebSites\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
+E:\WebSites\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.dll
+E:\WebSites\zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.dll
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.pdb
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.dll
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.dll
+C:\Users\Dream\Documents\GitHub\zhongcj.cc\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb

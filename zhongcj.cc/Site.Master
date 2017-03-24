@@ -40,6 +40,29 @@
     </div>
 </body>
 </html>
-<script type="text/javascript" language="javascript">
 
+<script type="text/javascript" language="javascript">
+    var IsDefault = '<%=(this.Page is zhongcj.cc.Default)==true?"true":"false" %>';
+    $(document).ready(function () {
+        if (IsDefault == 'true') {
+            $(".ptm_senior").hover(function () {
+                $(this).find(".ptms_ul").show();
+                $(this).find(".ptm_senior_title").css("width", 209);
+            }
+            , function () {
+                $(this).find(".ptms_ul").hide();
+                $(this).find(".ptm_senior_title").css("width", 208);
+            });
+        }
+        else {
+            $(".produtcategorymenu").hover(function () {
+                $(this).find(".ptm_seniors").show();
+            }
+            , function () {
+                $(this).find(".ptm_seniors").hide();
+            }
+            );
+        }
+
+    });
 </script>
