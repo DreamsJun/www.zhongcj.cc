@@ -45,12 +45,12 @@ a:hover{ color:#ff445b;}
 /*菜单分类*/
 .menu_center .produtcategorymenu{ width:210px; height:40px; background-color:#ff445d; float:left; position:relative; z-index:9999;}
 .menu_center .produtcategorymenu .ptm_all{ height:40px; color:#fff; font-size:18px; line-height:40px; text-indent:12px; background:no-repeat right 12px; width:198px; background-image:url(/styles/images/menulist_bg.png);}
-.menu_center .produtcategorymenu .ptm_seniors{ position:absolute; top:42px; left:0;background-color:#fff; width:208px;  font-size:14px; height:348px; border:1px solid #ff5b71; border-top:0;}
+.menu_center .produtcategorymenu .ptm_seniors{ position:absolute; top:42px; left:0;background-color:#fff; width:208px;  font-size:14px; height:329px; border:1px solid #ff5b71; border-top:0;}
 .ptm_seniors .ptm_senior{ height:32px; border-bottom:1px solid #ff5b71;   width:208px;}
 .ptm_seniors .ptm_senior .ptm_senior_title{text-indent:10px; display:block;line-height:32px; font-size:14px;height:32px; width:208px; position:relative; background-color:#fff; z-index:1;}
 .ptm_seniors .ptm_senior .ptm_senior_title:hover{ width:209px; border-right:0;}
-.ptm_seniors .ptm_senior .ptms_ul{ position:absolute; background-color:#fff;  left:208px; top:0; width:400px; border:1px solid #ff5b71; border-top:0; padding:0 10px; display:none;}
-
+.ptm_seniors .ptm_senior .ptms_ul{ position:absolute; background-color:#fff;  left:208px; top:0; width:400px; border:1px solid #ff5b71; border-top:0; padding:0 10px; display:none; height:329px;}
+.ptm_seniors .ptm_senior .ptm_senior_title_more{ width:208px ! important;}
 /*商城菜单*/
 .menu_center .mc_ul{ float:left; line-height:40px; height:40px; margin-left:20px; text-align:center;}
 .menu_center .mc_ul li{ float:left; display:block; overflow:hidden;}
@@ -73,3 +73,10 @@ a:hover{ color:#ff445b;}
 .benner_wuguanggao{ text-align:center; padding-top:100px;}
 
 /*End Banner*/
+
+/*--- Home_Product  ---*/
+.h_product{ width:1200px; margin:0 auto; overflow:hidden;}
+
+
+
+/*--- End Home_Product  ---*/

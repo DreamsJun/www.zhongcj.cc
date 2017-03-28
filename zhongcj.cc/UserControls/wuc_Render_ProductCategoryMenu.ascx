@@ -83,6 +83,6 @@
                  <li>其他</li>
              </ul>
          </li>
-         <li class="ptm_senior"><a href="/product/" class="ptm_senior_title" >查看更多</a></li>
+         <li class="ptm_senior"><a href="/product/" class="ptm_senior_title ptm_senior_title_more">查看更多</a></li>
      </ul>
 </div>
