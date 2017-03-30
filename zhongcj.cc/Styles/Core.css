@@ -99,10 +99,10 @@ a:hover{ color:#ff445b;}
 .hp_rcm .rcm_item .rcm_item_title h5{ font-size:20px; color:white; float:left; width:200px; text-indent:10px;}
 .hp_rcm .rcm_item_title .more{ float:right; display:block; height:20px; text-align:right; margin:20px 10px 0 0; color:white; font-size:12px; line-height:26px; overflow:hidden; }
 .hp_rcm .ri_product{ width:390px;  overflow:hidden; margin-top:10px; padding-bottom:10px;}
-.hp_rcm .ri_product li{float:left; width:179px; height:110px; margin-left:10px; border:1px solid #f6f6f6; border-left:0; border-top:0;}
+.hp_rcm .ri_product li{float:left; width:179px; height:140px; margin-left:10px; border:1px solid #f6f6f6; border-left:0; border-top:0;}
 .hp_rcm .ri_product li.no_bordr{ margin:0; width:190px; border-right:0;}
-.hp_rcm .ri_product li a{ display:block; width:100%; height:110px; position:relative;}
-.hp_rcm .ri_product li a img{ position:absolute; bottom:0; right:0; width:90px; min-height:50px;}
+.hp_rcm .ri_product li a{ display:block; width:100%; height:140px; position:relative;}
+.hp_rcm .ri_product li a img{ position:absolute; bottom:0; right:0; width:90px; height:90px;}
 .hp_rcm .ri_product li a span{ float:left; width:85px; font-size:14px; display:block; line-height:20px; margin-top:10px;}
 .hp_rcm .ri_product li.no_bordr a span{  margin-left:10px;}
 /*End Recommend*/
@@ -120,7 +120,8 @@ a:hover{ color:#ff445b;}
 .hpc_body .hpcd_rcm img{ width:100%; height:100%;}
 
 .hpc_body .hpcd_product{ overflow:hidden; float:left; width:960px; height:498px; border:1px solid #ccc; border-left:0;  border-right:0; background-color:white;}
-.hpcd_product .h_product_item{ float:left; height:249px; width:239px; border:1px solid #ccc; border-left:0; border-top:0;}
+.hpcd_product .h_product_item{ float:left; height:249px; width:191px; border:1px solid #ccc; border-left:0; border-top:0;}
+.hpcd_product .hpi_img{ width:170px; height:170px; overflow:hidden; display:block; padding:10px 9px 10px 10px;}
 
 /*-----End Floor----*/
 /*--- End Home_Product  ---*/
