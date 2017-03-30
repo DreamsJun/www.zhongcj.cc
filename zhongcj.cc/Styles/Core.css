@@ -7,6 +7,7 @@ a{ color:#333; text-decoration:none;}
 a:hover{ color:#ff445b;}
 .main{ min-width:1220px; width:100%; overflow:hidden;}
 .clear{clear:both; height:0; width:100%; overflow:hidden; line-height:0; font-size:0;}
+.site_bg{ background-color:#f6f6f6; width:100%;}
 /*--------  Top  ---------*/
 .topmenu{ height:32px; line-height:34px; font-size:14px; background-color:#f4f4f4; border-bottom:1px solid #ccc;}
 .topmenu .t_body{ width:1200px; height:32px; margin:0 auto;}
@@ -75,8 +76,51 @@ a:hover{ color:#ff445b;}
 /*End Banner*/
 
 /*--- Home_Product  ---*/
+/*Hot*/
+.hp_hot{ width:1200px; overflow:hidden; margin-top:50px;}
+.hp_hot .hp_hot_title{ font-size:20px; height:26px; line-height:26px; margin-bottom:15px;}
+.hp_hot .hp_hot_items{ background-color:white; overflow:hidden; height:260px;}
+.hp_hot .hot_item{ width:200px; float:left; overflow:hidden;}
+.hp_hot .hot_item a{ height:222px; width:180px; padding:10px 9px 5px 10px; border-right:1px solid #f6f6f6; display:block; line-height:0; font-size:0; text-align:center; overflow:hidden;}
+.hp_hot .hot_item a img{width:180px; height:180px;}
+.hp_hot .hot_item a span{ font-size:14px; text-align:center; line-height:18px; height:36px; margin-top:8px; display:block; overflow:hidden;}
+.hp_hot .hot_item .price{ color:#e50012; display:block; height:16px; line-height:16px; font-size:14px; font-weight:bold; text-align:center; width:180px; margin:0 auto;}
+/*End Hot*/
+
+/*Recommend*/
 .h_product{ width:1200px; margin:0 auto; overflow:hidden;}
+.h_product .hp_rcm{width:1200px; overflow:hidden; margin:40px 0;}
+.hp_rcm .hp_rcm_items{ overflow:hidden; width:100%;}
+.hp_rcm .rcm_item{ float:left; width:390px; margin-left:15px; overflow:hidden;  background-color:white;}
+.hp_rcm .rcm_item .rcm_item_title{ height:50px; line-height:50px; width:100%;}
+.rcm_item .cit_bg{ background-color:#419dae;}
+.rcm_item .cit_bgo{ background-color:#867bc5;}
+.rcm_item .cit_bgt{ background-color:#a25683;}
+.hp_rcm .rcm_item .rcm_item_title h5{ font-size:20px; color:white; float:left; width:200px; text-indent:10px;}
+.hp_rcm .rcm_item_title .more{ float:right; display:block; height:20px; text-align:right; margin:20px 10px 0 0; color:white; font-size:12px; line-height:26px; overflow:hidden; }
+.hp_rcm .ri_product{ width:390px;  overflow:hidden; margin-top:10px; padding-bottom:10px;}
+.hp_rcm .ri_product li{float:left; width:179px; height:110px; margin-left:10px; border:1px solid #f6f6f6; border-left:0; border-top:0;}
+.hp_rcm .ri_product li.no_bordr{ margin:0; width:190px; border-right:0;}
+.hp_rcm .ri_product li a{ display:block; width:100%; height:110px; position:relative;}
+.hp_rcm .ri_product li a img{ position:absolute; bottom:0; right:0; width:90px; min-height:50px;}
+.hp_rcm .ri_product li a span{ float:left; width:85px; font-size:14px; display:block; line-height:20px; margin-top:10px;}
+.hp_rcm .ri_product li.no_bordr a span{  margin-left:10px;}
+/*End Recommend*/
 
 
+/*-----Floor----*/
+.h_product .hp_category{ overflow:hidden; margin-bottom:50px;}
+.hpc_title{height:26px;  overflow:hidden; margin-bottom:15px;}
+.hpc_title h3{ height:26px; font-size:20px; line-height:26px; color:#333; float:left; width:300px;}
+.hpc_title .more{ float:right; color:#e50012; font-size:12px; display:block; height:18px; line-height:22px; overflow:hidden; margin-top:8px;}
+.hpc_body{ overflow:hidden; height:500px;}
 
+.hpc_body .hpcd_rcm{ float:left; width:240px; overflow:hidden; background-color:#f1f1f1; height:500px;}
+.hpc_body .hpcd_rcm a{line-height:0; font-size:0; display:block; height:500px;}
+.hpc_body .hpcd_rcm img{ width:100%; height:100%;}
+
+.hpc_body .hpcd_product{ overflow:hidden; float:left; width:960px; height:498px; border:1px solid #ccc; border-left:0;  border-right:0; background-color:white;}
+.hpcd_product .h_product_item{ float:left; height:249px; width:239px; border:1px solid #ccc; border-left:0; border-top:0;}
+
+/*-----End Floor----*/
 /*--- End Home_Product  ---*/
