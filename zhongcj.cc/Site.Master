@@ -3,6 +3,7 @@
 <%@ Register Src="~/UserControls/wuc_Render_TopMenu.ascx" TagPrefix="uc" TagName="TopMenu" %>
 <%@ Register Src="~/UserControls/wuc_Render_SerachProduct.ascx" TagPrefix="uc" TagName="SerachProduct" %>
 <%@ Register Src="~/UserControls/wuc_Render_ProductCategoryMenu.ascx" TagPrefix="uc" TagName="ProductCategoryMenu" %>
+<%@ Register Src="~/UserControls/wuc_Render_Footer.ascx" TagPrefix="uc" TagName="Footer" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link rel="Stylesheet" type="text/css" href="/styles/core.css" />
@@ -28,7 +29,7 @@
                   <uc:ProductCategoryMenu ID="ProductCategoryMenu" runat="server" />
                   <ul class="mc_ul">
                       <li><a href="" target="_self">首页</a></li>
-                      <li><a href="" target="_self">商品中心</a></li>                      
+                      <li><a href="/products/" target="_self">商品中心</a></li>                      
                       <li><a href="" target="_self">商品定制</a></li>
                       <li><a href="" target="_self">积分商城</a></li>
                   </ul>
@@ -37,6 +38,7 @@
         <asp:ContentPlaceHolder ID="Body" runat="server">
             
         </asp:ContentPlaceHolder>
+        <uc:Footer ID="Footer" runat="server" />
     </div>
 </body>
 </html>
@@ -55,6 +57,7 @@
             });
         }
         else {
+            $(".ptm_seniors").css("display", "none");
             $(".produtcategorymenu").hover(function () {
                 $(this).find(".ptm_seniors").show();
             }

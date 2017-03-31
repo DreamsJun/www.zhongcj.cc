@@ -32,7 +32,7 @@ a:hover{ color:#ff445b;}
 
 .search .serach_main .shoppingcart{ font-size:16px; line-height:36px; margin:40px 0 0 20px; height:36px; float:left; border:1px solid #dfdfdf; width:120px; text-align:center;}
 
-.search .serach_link{ height:50px; overflow:hidden;}
+.search .serach_link{height:50px; overflow:hidden;}
 .search .serach_link .sl_ul{ height:30px; display:inline-block; float:left; overflow:hidden;}
 .search .serach_link .sl_ul li{line-height:13px; height:13px; float:left; text-align:center; padding-right:10px; font-size:12px; border-right:1px solid #666; margin-top:7px; margin-right:10px;}
 .search .serach_link .sl_ul li a{ color:#666;}
@@ -46,7 +46,7 @@ a:hover{ color:#ff445b;}
 /*菜单分类*/
 .menu_center .produtcategorymenu{ width:210px; height:40px; background-color:#ff445d; float:left; position:relative; z-index:9999;}
 .menu_center .produtcategorymenu .ptm_all{ height:40px; color:#fff; font-size:18px; line-height:40px; text-indent:12px; background:no-repeat right 12px; width:198px; background-image:url(/styles/images/menulist_bg.png);}
-.menu_center .produtcategorymenu .ptm_seniors{ position:absolute; top:42px; left:0;background-color:#fff; width:208px;  font-size:14px; height:329px; border:1px solid #ff5b71; border-top:0;}
+.menu_center .produtcategorymenu .ptm_seniors{ position:absolute; top:40px; left:0;background-color:#fff; width:208px;  font-size:14px; height:329px; border:1px solid #ff5b71; border-top-width:2px; border-top-color:#ff445b;}
 .ptm_seniors .ptm_senior{ height:32px; border-bottom:1px solid #ff5b71;   width:208px;}
 .ptm_seniors .ptm_senior .ptm_senior_title{text-indent:10px; display:block;line-height:32px; font-size:14px;height:32px; width:208px; position:relative; background-color:#fff; z-index:1;}
 .ptm_seniors .ptm_senior .ptm_senior_title:hover{ width:209px; border-right:0;}
@@ -89,7 +89,7 @@ a:hover{ color:#ff445b;}
 
 /*Recommend*/
 .h_product{ width:1200px; margin:0 auto; overflow:hidden;}
-.h_product .hp_rcm{width:1200px; overflow:hidden; margin:40px 0;}
+.h_product .hp_rcm{width:1200px; overflow:hidden; margin:40px 0 0;}
 .hp_rcm .hp_rcm_items{ overflow:hidden; width:100%;}
 .hp_rcm .rcm_item{ float:left; width:390px; margin-left:15px; overflow:hidden;  background-color:white;}
 .hp_rcm .rcm_item .rcm_item_title{ height:50px; line-height:50px; width:100%;}
@@ -109,7 +109,7 @@ a:hover{ color:#ff445b;}
 
 
 /*-----Floor----*/
-.h_product .hp_category{ overflow:hidden; margin-bottom:50px;}
+.h_product .hp_category{ overflow:hidden; margin-top:30px;}
 .hpc_title{height:26px;  overflow:hidden; margin-bottom:15px;}
 .hpc_title h3{ height:26px; font-size:20px; line-height:26px; color:#333; float:left; width:300px;}
 .hpc_title .more{ float:right; color:#e50012; font-size:12px; display:block; height:18px; line-height:22px; overflow:hidden; margin-top:8px;}
@@ -122,6 +122,53 @@ a:hover{ color:#ff445b;}
 .hpc_body .hpcd_product{ overflow:hidden; float:left; width:960px; height:498px; border:1px solid #ccc; border-left:0;  border-right:0; background-color:white;}
 .hpcd_product .h_product_item{ float:left; height:249px; width:191px; border:1px solid #ccc; border-left:0; border-top:0;}
 .hpcd_product .hpi_img{ width:170px; height:170px; overflow:hidden; display:block; padding:10px 9px 10px 10px;}
-
+.hpcd_product .hpi_img img{width:170px; height:170px;}
+.hpcd_product .hpi_title{ display:block; font-size:14px; width:170px; margin:0 auto; height:32px; overflow:hidden; line-height:16px; text-align:center;}
+.hpcd_product .price{ color:#e50012; font-weight:bold; font-size:14px; display:block; width:170px; height:18px; line-height:18px; text-align:center; margin:2px auto 0;}
 /*-----End Floor----*/
 /*--- End Home_Product  ---*/
+.home_rcm{ width:1200px; height:115px; overflow:hidden; margin:0 auto; margin-top:20px;}
+.home_rcm a{ display:block; line-height:0;width:1200px; height:115px; }
+.home_rcm img{ width:100%; height:100%;}
+
+
+/*------  Footer  ------*/
+.footer{ width:100%;  overflow:hidden; margin-bottom:50px; font-size:12px;}
+.footer .f_bg{border-bottom:1px solid #ccc; height:20px; background-color:#f6f6f6; width:100%;}
+.footer .f_top{ width:1200px; margin:0 auto; overflow:hidden; padding-bottom:20px; border-bottom:1px solid #e4e4e4;}
+.footer .f_w{ width:1000px; overflow:hidden; margin-top:50px; border-right:1px solid #ccc; float:left; height:150px;}
+ul.f_w .w_item{ float:left; width:200px;}
+ul.f_w .w_item strong{ font-size:14px; display:block; color:#666;}
+ul.f_w .w_item ul.wis{ width:100%;}
+ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
+.footer .f_qrc{ width:100px; float:right; margin-top:50px; height:150px; overflow:hidden;}
+.footer .f_qrc span{ display:block; float:right; height:16px; line-height:14px; text-align:left; width:100px; font-size:12px;}
+.footer .f_qrc span.ts{ margin-bottom:10px;}
+.footer .f_qrc span.af{ margin-top:10px;}
+.footer .f_qrc img{ float:right; width:100px; height:100px;}
+.footer .copyright{ text-align:center; width:1200px; margin:20px auto 0; overflow:hidden; line-height:24px;}
+.footer .copyright a{ color:#ff445b;}
+.footer .copyright img{ display:inline-block; height:16px; position:relative; top:4px;}
+.footer .copyright a.service{ font-size:0; line-height:0; display:inline-block;  position:relative;}
+/*------ End  Footer  ------*/
+
+/*--NAV--*/
+.navbody{ height:40px; width:100%; background-color:#f4f4f4;  }
+.navbody .navs{ width:1200px; margin:0 auto; overflow:hidden; height:40px;}
+.navbody .navs li{ float:left;line-height:40px; font-size:14px;}
+.navbody .navs li.nav{ font-size:12px;color:#666;}
+.navbody .navs li.nav a{color:#666;}
+.navbody .navs li.nav a:hover{color:#ff445b;}
+.navbody .navs li.nav_gt{ font-family:serif; padding:0 6px;}
+.navbody .navs li.nav_c{ height:20px; overflow:hidden; margin-top:10px; font-size:12px;}
+.navbody .navs li.nav_c a{ display:block; border:1px solid #ccc; height:18px; line-height:18px; padding:0 22px 0 8px; cursor:pointer; background:no-repeat right top; background-image:url(/styles/images/close.png);}
+.navbody .navs li.nav_c a:hover{  border-color:#ff445b;background:no-repeat right top; background-image:url(/styles/images/close_hover.png);}
+/*--End NAV--*/
+
+/*------------Product--------------*/
+.product{ width:1200px; overflow:hidden; margin:0 auto;}
+.p_category_items{overflow:hidden;}
+.p_category .pc_items{}
+
+
+/*------------End Product--------------*/
