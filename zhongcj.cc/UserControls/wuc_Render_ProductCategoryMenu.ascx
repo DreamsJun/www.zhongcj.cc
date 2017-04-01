@@ -1,7 +1,13 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="wuc_Render_ProductCategoryMenu.ascx.cs" Inherits="zhongcj.cc.UserControls.wuc_Render_ProductCategoryMenu" %>
+<%var styles = @" style=""display:none;""";
+  if (this.Page is zhongcj.cc.Default)
+  {
+      styles = "";
+  }
+     %>
 <div class="produtcategorymenu">
      <div class="ptm_all">全部商品</div>
-     <ul class="ptm_seniors">
+     <ul class="ptm_seniors"<%=styles %>>
          <li class="ptm_senior">
              <a class="ptm_senior_title" rel="nofllow">苹果(Apple)</a>
              <ul class="ptms_ul">

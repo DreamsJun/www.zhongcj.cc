@@ -167,8 +167,23 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 
 /*------------Product--------------*/
 .product{ width:1200px; overflow:hidden; margin:0 auto;}
-.p_category_items{overflow:hidden;}
-.p_category .pc_items{}
-
+.p_category_items{overflow:hidden; border-top:1px solid #ccc; width:1200px; margin-top:15px;}
+.p_category_items .pci{ overflow:hidden; border-bottom:1px solid #ccc; width:1200px; background-color:#f3f3f3; font-size:12px; position:relative;}
+.p_category_items .pci .pci_title{ width:100px; float:left; text-align:left; padding-left:10px; height:100%; line-height:38px; white-space:nowrap; overflow:hidden;}
+.p_category_items .pci .pci_list{ float:left; width:1000px; background-color:white; padding:6px 90px 6px 0;}
+.p_category_items .pci .pci_list li{ float:left; margin-left:40px; line-height:26px;}
+.p_category_items .pci .pci_list li a{ display:block; text-align:center; white-space:nowrap; padding:0 4px 0 18px; overflow:hidden;}
+.multiselect{position:absolute; width:50px; text-align:center;line-height:24px; height:24px; border:1px solid #ddd; display:block; font-size:12px; right:20px; top:6px; font-weight:normal; cursor:pointer;}
+.multiselect:hover{color:#ff445b;}
+.pci_btns{ width:1090px; margin:0 auto; display:none; background-color:white; position:absolute; left:110px; height:50px; bottom:0;}
+.pci_btns ul{ display:block; width:114px; height:26px; margin-left:400px; margin-top:10px;}
+.pci_btns ul li{ float:left; border:1px solid #ccc; width:50px; text-align:center; height:22px; line-height:22px; border-radius:3px;}
+.pci_btns ul li.submit{ background-color:#ff445b; color:white; margin-right:10px; display:none;}
+.pci_btns ul li.cancle{ background-color:#f3f3f3; float:right;}
+.p_category_items .pci_add{ padding-bottom:50px;}
+.p_category_items .pci_add .pci_list li{ position:relative;}
+.p_category_items .pci_add .pci_list li i{ position:absolute; text-indent:99px;  overflow:hidden; display:block; height:24px; width:100%;  border:1px solid #ccc; float:left;}
+.p_category_items .pci_add .pci_list li:hover i{border-color:#ff445b;background:no-repeat left top; background-image:url(/styles/images/c_select.png);}
+.p_category_items .pci_add .pci_list li.current i{ background:no-repeat left top; background-image:url(/styles/images/c_select.png); border:1px solid #ff445b; position:absolute; left:1px; top:-1px; }
 
 /*------------End Product--------------*/
