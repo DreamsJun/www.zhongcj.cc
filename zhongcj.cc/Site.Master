@@ -57,16 +57,9 @@
             });
         }
         else {
+            $(".ptm_seniors").css("display", "none");
             $(".produtcategorymenu").hover(function () {
                 $(this).find(".ptm_seniors").show();
-                $(".ptm_senior").hover(function () {
-                    $(this).find(".ptms_ul").show();
-                    $(this).find(".ptm_senior_title").css("width", 209);
-                }
-            , function () {
-                $(this).find(".ptms_ul").hide();
-                $(this).find(".ptm_senior_title").css("width", 208);
-            });
             }
             , function () {
                 $(this).find(".ptm_seniors").hide();
