@@ -153,6 +153,7 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 /*------ End  Footer  ------*/
 
 /*--NAV--*/
+/*导航*/
 .navbody{ height:40px; width:100%; background-color:#f4f4f4;  }
 .navbody .navs{ width:1200px; margin:0 auto; overflow:hidden; height:40px;}
 .navbody .navs li{ float:left;line-height:40px; font-size:14px;}
@@ -166,6 +167,7 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 /*--End NAV--*/
 
 /*------------Product--------------*/
+/*分类*/
 .product{ width:1200px; overflow:hidden; margin:0 auto;}
 .p_category_items{overflow:hidden; border-top:1px solid #ccc; width:1200px; margin-top:15px;}
 .p_category_items .pci{ overflow:hidden; border-bottom:1px solid #ccc; width:1200px; background-color:#f3f3f3; font-size:12px; position:relative;}
@@ -173,6 +175,7 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 .p_category_items .pci .pci_list{ float:left; width:1000px; background-color:white; padding:6px 90px 6px 0;}
 .p_category_items .pci .pci_list li{ float:left; margin-left:40px; line-height:26px;}
 .p_category_items .pci .pci_list li a{ display:block; text-align:center; white-space:nowrap; padding:0 4px 0 18px; overflow:hidden;}
+
 .multiselect{position:absolute; width:50px; text-align:center;line-height:24px; height:24px; border:1px solid #ddd; display:block; font-size:12px; right:20px; top:6px; font-weight:normal; cursor:pointer;}
 .multiselect:hover{color:#ff445b;}
 .pci_btns{ width:1090px; margin:0 auto; display:none; background-color:white; position:absolute; left:110px; height:50px; bottom:0;}
@@ -180,13 +183,16 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 .pci_btns ul li{ float:left; border:1px solid #ccc; width:50px; text-align:center; height:22px; line-height:22px; border-radius:3px;}
 .pci_btns ul li.submit{ background-color:#ff445b; color:white; margin-right:10px; display:none;}
 .pci_btns ul li.cancle{ background-color:#f3f3f3; float:right;}
+
 .p_category_items .pci_add{ padding-bottom:50px;}
 .p_category_items .pci_add .pci_list li{ position:relative;}
 .p_category_items .pci_add .pci_list li i{ position:absolute;background:no-repeat left top; background-image:url(/styles/images/c_select1.png); text-indent:99px;  overflow:hidden; display:block; height:24px; width:100%;  border:1px solid #ccc; float:left;}
 .p_category_items .pci_add .pci_list li:hover i{border-color:#ff445b;background:no-repeat left top; background-image:url(/styles/images/c_select.png);}
 .p_category_items .pci_add .pci_list li.current i{ background:no-repeat left top; background-image:url(/styles/images/c_select.png); border:1px solid #ff445b; position:absolute; left:0px; top:0px; }
+/*End 分类*/
 
 .product_body{ overflow:hidden; width:1200px; margin-top:10px;}
+/*左边*/
 .product_body .product_left{float:left; width:180px; overflow:hidden;}
 .product_body .product_left .pl_list{ overflow:hidden; width:178px; border:1px solid #ccc; color:#666;}
 .product_body .pl_list li{ overflow:hidden; width:160px; margin:0 9px;}
@@ -198,6 +204,13 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 .product_body .pl_list li .pll_title{ font-size:12px; line-height:18px; margin-bottom:20px;}
 .product_body .product_left .pl_rcm{ width:180px; overflow:hidden; margin:20px 0;}
 .product_left .pl_rcm a{ display:block; line-height:0; font-size:0;}
+
 .product_left .pl_rcm img{ width:180px;}
-.product_body .product_right{ width:1010px; float:left;}
+/*End  左边*/
+
+.product_body .product_right{ width:1010px; float:left; margin-left:10px; }
+.product_right .product_screen{ height:37px; border:1px solid #ccc; border-left:0; border-right:0; overflow:hidden;background-color:#f1f1f1; }
+.product_right .product_screen .ul_screen{ float:left; width:300px; float:left; margin-left:10px; overflow:hidden;}
+.product_right .product_screen .ul_screen li{ float:left;  display:block;  overflow:hidden; border:1px solid #ccc;}
+
 /*------------End Product--------------*/

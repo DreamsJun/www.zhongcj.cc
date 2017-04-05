@@ -135,7 +135,25 @@
               </ul>
          </div>
          <div class="product_right">
-              
+              <div class="product_screen">
+                   <ul class="ul_screen">
+                       <li class="current"><a href="" target="_self">默认</a></li>
+                       <li><a href="" target="_self">销量</a></li>
+                       <li><a href="" target="_self">评论数</a></li>
+                       <li><a href="" target="_self">新品</a></li>
+                       <li><a href="" target="_self" class="price">价格</a></li>
+                   </ul>
+                   <ul class="ps_btns">
+                        <li class="ps_dsps">共1200件商品&nbsp;&nbsp;<span>1</span>/3</li>
+                        <li class="psb_item">
+                            <a href="" target="_self">&lt;</a>
+                            <a href="" target="_self">&gt;</a>
+                        </li>
+                   </ul>
+              </div>
+              <div class="productlist">
+                   <ul></ul>
+              </div>
          </div>
     </div>
 </div>
