@@ -210,7 +210,9 @@ ul.f_w .w_item ul.wis li{ height:26px; line-height:26px;}
 
 .product_body .product_right{ width:1010px; float:left; margin-left:10px; }
 .product_right .product_screen{ height:37px; border:1px solid #ccc; border-left:0; border-right:0; overflow:hidden;background-color:#f1f1f1; }
-.product_right .product_screen .ul_screen{ float:left; width:300px; float:left; margin-left:10px; overflow:hidden;}
-.product_right .product_screen .ul_screen li{ float:left;  display:block;  overflow:hidden; border:1px solid #ccc;}
-
+.product_right .product_screen .ul_screen{ float:left; width:300px; float:left; margin-left:10px; overflow:hidden; height:25px; line-height:23px; margin-top:6px; border-left:1px solid #ccc;}
+.product_right .product_screen .ul_screen li{ float:left;  display:block;  overflow:hidden; border:1px solid #ccc; height:23px; border-left:0;}
+.product_right .product_screen .ul_screen li a{ display:block; background:no-repeat 45px 6px; background-image:url(/styles/images/sort.png); width:60px; text-indent:5px;}
+.product_right .product_screen .ul_screen li a:hover{ background-position:45px -12px;}
+.product_right .product_screen .ul_screen li.current a{ background-position:45px -30px; background-color:#ff445b; color:#fff;}
 /*------------End Product--------------*/

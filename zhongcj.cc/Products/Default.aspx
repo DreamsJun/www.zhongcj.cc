@@ -139,7 +139,7 @@
                    <ul class="ul_screen">
                        <li class="current"><a href="" target="_self">默认</a></li>
                        <li><a href="" target="_self">销量</a></li>
-                       <li><a href="" target="_self">评论数</a></li>
+                       <li><a href="" target="_self">评论</a></li>
                        <li><a href="" target="_self">新品</a></li>
                        <li><a href="" target="_self" class="price">价格</a></li>
                    </ul>
