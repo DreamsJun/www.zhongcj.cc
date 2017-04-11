@@ -37,6 +37,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\DevExpress.Data.v12.1.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.SpellChecker.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\DevExpress.SpellChecker.v12.1.Core.dll</HintPath>
@@ -132,6 +133,7 @@
     <Compile Include="Codes\BaseUserControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Codes\MembershipHelper.cs" />
     <Compile Include="Codes\SecurityHelper.cs" />
     <Compile Include="Codes\Utils.cs" />
     <Compile Include="Default.aspx.cs">

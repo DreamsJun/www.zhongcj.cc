@@ -146,13 +146,393 @@
                    <ul class="ps_btns">
                         <li class="ps_dsps">共1200件商品&nbsp;&nbsp;<span>1</span>/3</li>
                         <li class="psb_item">
-                            <a href="" target="_self">&lt;</a>
+                            <a class="notpage" href="" target="_self">&lt;</a>
                             <a href="" target="_self">&gt;</a>
                         </li>
                    </ul>
               </div>
               <div class="productlist">
-                   <ul></ul>
+                   <ul>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_body">
+                                 <a class="p_list_img" href="/products/view.aspx" target="_blank">
+                                    <img src="" alt="产品图片" />
+                                 </a>
+                                 <span class="price">¥149.90</span>
+                                 <a class="p_list_title" href="/products/view.aspx"" target="_blank">闪迪（SanDisk）酷铄(CZ73) USB3.0 金属<font class="key_color">U盘</font>64GB 读150MB/秒</a>
+                                 <span class="p_list_review">已有<font>128万+</font>人评价</span>
+                            </div>
+                        </li>
+                   </ul>
+              </div>
+
+              <div class="pages">
+                   <ul>
+                       <li><a href="" target="_self" class="page_prev">上一页</a></li>
+                       <li><a href="" target="_self">1</a></li>
+                       <li><a href="" target="_self">2</a></li>
+                       <li class="page_dot">...</li>
+                       <li><a href="" target="_self">8</a></li>
+                       <li><a href="" target="_self">9</a></li>
+                       <li><a href="" target="_self" class="current">10</a></li>
+                       <li><a href="" target="_self">11</a></li>
+                       <li><a href="" target="_self">12</a></li>
+                       <li class="page_dot">...</li>
+                       <li><a href="" target="_self" class="page_next">下一页</a></li>
+                   </ul>
+                   <div class="to_page_info">
+                   <font>共100页&nbsp;&nbsp;到第</font><input type="text" onpaste="return false;" class="txt_to_page" id="txt_ToPage" /><font>页&nbsp;&nbsp;</font><b class="btn_to_page" onclick="ToPageIndex()">确定</b>
+                   </div>
               </div>
          </div>
     </div>
@@ -173,6 +553,7 @@
             popupBtns(this.index);
         }
     }
+    //弹出按钮
     function popupBtns(index) {
         if (currentOpenIndex > -1) {//上一个选中添加的元素
             pci.eq(currentOpenIndex).removeClass("pci_add");
@@ -230,7 +611,7 @@
     }
 
     var arrayLength = 0;
-
+    //选择当前项
     function SelectCurrent(g) {
         var c = document.getElementById("currentCategory").getElementsByTagName("i");
         var cValue = c[g].innerHTML;//获取当前点击的值
@@ -260,7 +641,7 @@
             $('.pci_btns ul li.submit').css("display", "block");//显示确定按钮
         }
     }
-
+    //搜索
     function SerachSubmit(type) {
         switch (type) {
             case "c":
@@ -275,5 +656,30 @@
         alert(Type + ValuesArray.join(","));
     }
 
+
+</script>
+<%--分页跳转--%>
+<script type="text/javascript" language="javascript">
+    var ToPage = document.getElementById("txt_ToPage");
+    var pageIndex = 1;
+    ToPage.onkeydown = function () {
+        var code = parseInt(event.keyCode);
+        if (code == 13) {
+            pageIndex = parseInt(this.value);
+            ToPageIndex();
+        }
+        if (((48 <= code && code <= 56) || (96 <= code && code <= 105) || code == 8 || code == 46 || code == 116) == false) {
+            return false;
+        }
+    }
+    function ToPageIndex() {
+        if (pageIndex != 1 ) {
+
+        }
+        if (pageIndex == NaN) {
+            alert("请输入跳转的页面");
+        }
+        alert(pageIndex);
+    }
 </script>
 </asp:Content>

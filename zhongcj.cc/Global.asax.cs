@@ -21,7 +21,7 @@ namespace zhongcj.cc
         {
             // Code that runs on application startup
             //string conn = DevExpress.Xpo.DB.MSSqlConnectionProvider.GetConnectionString(@".\SqlExpress", "sa", "123", "DBSymaiMall");
-            var configConStr = ConfigurationManager.ConnectionStrings["ZCJConnectString"].ConnectionString;
+            var configConStr = ConfigurationManager.ConnectionStrings["DreamMallConnectString"].ConnectionString;
             var userId = Utils.GetItemValueFromConnectionString(configConStr, "User ID");
             var password = Utils.GetItemValueFromConnectionString(configConStr, "Password");
             var server = Utils.GetItemValueFromConnectionString(configConStr, "Data Source");
@@ -34,7 +34,10 @@ namespace zhongcj.cc
                 );
             DevExpress.Xpo.Metadata.XPDictionary dict = new DevExpress.Xpo.Metadata.ReflectionDictionary();
             // Initialize the XPO dictionary.
-            dict.GetDataStoreSchema(typeof(zhongcj.cc.Models.Article).Assembly);
+
+            dict.GetDataStoreSchema(new Type[] { typeof(zhongcj.cc.Models.BusinessObjects.DreamWeb.Article) });
+            dict.GetDataStoreSchema(typeof(zhongcj.cc.Models.BusinessObjects.DreamMall.Product).Assembly);
+
             DevExpress.Xpo.XpoDefault.Session = null;
             DevExpress.Xpo.DB.IDataStore store = DevExpress.Xpo.XpoDefault.GetConnectionProvider(conn, DevExpress.Xpo.DB.AutoCreateOption.SchemaOnly);
             DevExpress.Xpo.XpoDefault.DataLayer = new DevExpress.Xpo.ThreadSafeDataLayer(dict, store);

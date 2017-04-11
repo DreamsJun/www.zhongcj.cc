@@ -32,6 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.BaseImpl.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpo.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\zhongcj.cc\bin\DevExpress.Xpo.v12.1.dll</HintPath>
@@ -44,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Article.cs" />
+    <Compile Include="BusinessObjects\DreamMallMember\MemberRetrievalPassword.cs" />
+    <Compile Include="BusinessObjects\DreamMall\Product.cs" />
+    <Compile Include="BusinessObjects\DreamMall\ProductBrand.cs" />
+    <Compile Include="BusinessObjects\DreamMall\ProductCategory.cs" />
+    <Compile Include="BusinessObjects\DreamMall\ProductImage.cs" />
+    <Compile Include="BusinessObjects\DreamWeb\Article.cs" />
+    <Compile Include="Enum\MemberRetrievalPasswordStatusType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
