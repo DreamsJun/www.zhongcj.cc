@@ -153,6 +153,16 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
             return ancestors;
         }
 
-
+        [
+        Association,Aggregated,
+        DevExpress.ExpressApp.DC.XafDisplayName("产品类型版本"),
+        DevExpress.Persistent.Base.VisibleInDetailView(false),
+        DevExpress.Persistent.Base.VisibleInListView(false),
+        DevExpress.Persistent.Base.VisibleInLookupListView(false)        
+        ]
+        public XPCollection<ProductCategoryVersion> ProductCategoryVersion
+        {
+            get { return GetCollection<ProductCategoryVersion>("ProductCategoryVersion"); }
+        }
     }
 }

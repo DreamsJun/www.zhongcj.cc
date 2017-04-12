@@ -60,6 +60,8 @@
     <Compile Include="BusinessObjects\DreamMall\Product.cs" />
     <Compile Include="BusinessObjects\DreamMall\ProductBrand.cs" />
     <Compile Include="BusinessObjects\DreamMall\ProductCategory.cs" />
+    <Compile Include="BusinessObjects\DreamMall\ProductCategoryVersion.cs" />
+    <Compile Include="BusinessObjects\DreamMall\ProductColor.cs" />
     <Compile Include="BusinessObjects\DreamMall\ProductImage.cs" />
     <Compile Include="BusinessObjects\DreamMallMember\MemberReView.cs" />
     <Compile Include="BusinessObjects\DreamMallMember\Region.cs" />
