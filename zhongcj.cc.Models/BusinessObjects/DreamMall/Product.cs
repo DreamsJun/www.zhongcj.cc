@@ -44,16 +44,34 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
         }
 
 
-        private ProductImage _ProductImage;
+
+        private string _Name;
         /// <summary>
-        /// 产品图库
+        /// 产品名称
         /// </summary>
-        internal ProductImage ProductImage
+        public string Name
         {
-            get { return _ProductImage; }
-            set { _ProductImage = value; }
+            get { return _Name; }
+            set { _Name = value; }
+        }
+
+        private string _Alias;
+        /// <summary>
+        /// 别名
+        /// </summary>
+        public string Alias
+        {
+            get { return _Alias; }
+            set { _Alias = value; }
         }
 
 
+        [Association, Aggregated]
+        [DevExpress.ExpressApp.DC.XafDisplayName("产品图库")]
+        [DevExpress.Persistent.Base.VisibleInDetailView(false), DevExpress.Persistent.Base.VisibleInListView(false), DevExpress.Persistent.Base.VisibleInLookupListView(false)]
+        public XPCollection<ProductImage> ProductImage
+        {
+            get { return GetCollection<ProductImage>("ProductImage"); }
+        }
     }
 }

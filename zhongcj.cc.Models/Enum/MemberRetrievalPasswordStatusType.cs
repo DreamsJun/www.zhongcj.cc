@@ -6,7 +6,7 @@ using DevExpress.Xpo;
 
 namespace zhongcj.cc.Models.Enum
 {
-    enum MemberRetrievalPasswordStatusType
+    public enum MemberRetrievalPasswordStatusType
     {
         [DisplayName("新申请找回密码")]
         New = 0,

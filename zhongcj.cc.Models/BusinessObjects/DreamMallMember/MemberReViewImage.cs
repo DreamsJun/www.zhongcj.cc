@@ -4,25 +4,27 @@ using System.Linq;
 using System.Text;
 using DevExpress.Xpo;
 
-namespace zhongcj.cc.Models.BusinessObjects.DreamMall
+namespace zhongcj.cc.Models.BusinessObjects.DreamMallMember
 {
-    public class ProductImage : XPObject
+    /// <summary>
+    /// 评论晒图
+    /// </summary>
+    public class MemberReViewImage : XPObject
     {
-        public ProductImage(): base(){}
-        public ProductImage(Session session): base(session){}
+        public MemberReViewImage() : base() { }
+        public MemberReViewImage(Session session) : base(session) { }
         public override void AfterConstruction()
         {
             base.AfterConstruction();
         }
-
-        private Product _Product;
+        private MemberReView _MemberReView;
         /// <summary>
-        /// 产品
+        /// 评论
         /// </summary>
-        public Product Product
+        public MemberReView MemberReView
         {
-            get { return _Product; }
-            set { _Product = value; }
+            get { return _MemberReView; }
+            set { _MemberReView = value; }
         }
 
         private string _Image;

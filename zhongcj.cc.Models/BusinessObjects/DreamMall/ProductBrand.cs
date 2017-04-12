@@ -6,7 +6,7 @@ using DevExpress.Xpo;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMall
 {
-    class ProductBrand : XPObject
+    public class ProductBrand : XPObject
     {
         public ProductBrand() : base() { }
         public ProductBrand(Session session) : base(session) { }
