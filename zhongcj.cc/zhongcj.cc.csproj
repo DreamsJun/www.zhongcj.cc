@@ -112,6 +112,7 @@
     <Content Include="Styles\Images\banner_03.jpg" />
     <Content Include="Styles\Images\banner_01.jpg" />
     <Content Include="Styles\Images\banner_02.jpg" />
+    <Content Include="Styles\Login.css" />
     <Content Include="UserControls\wuc_Render_Footer.ascx" />
     <Content Include="UserControls\wuc_Render_ProductCategoryMenu.ascx" />
     <Content Include="UserControls\wuc_Render_SerachProduct.ascx" />

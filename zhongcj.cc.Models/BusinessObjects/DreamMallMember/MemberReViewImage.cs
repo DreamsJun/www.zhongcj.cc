@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using DevExpress.Xpo;
+using DevExpress.Persistent.BaseImpl;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMallMember
 {
     /// <summary>
     /// 评论晒图
     /// </summary>
-    public class MemberReViewImage : XPObject
+    public class MemberReViewImage : BaseObject
     {
         public MemberReViewImage() : base() { }
         public MemberReViewImage(Session session) : base(session) { }

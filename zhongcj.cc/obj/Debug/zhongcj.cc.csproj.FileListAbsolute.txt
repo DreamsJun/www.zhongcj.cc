@@ -33,3 +33,10 @@ E:\WebSites\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb
 E:\WebSites\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
 E:\WebSites\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.dll
 E:\WebSites\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.dll
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.pdb
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.dll
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\bin\zhongcj.cc.Models.pdb
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.csprojResolveAssemblyReference.cache
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.dll
+F:\WebSite\121\www.zhongcj.cc\zhongcj.cc\obj\Debug\zhongcj.cc.pdb

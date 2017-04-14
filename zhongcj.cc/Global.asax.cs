@@ -36,6 +36,7 @@ namespace zhongcj.cc
             // Initialize the XPO dictionary.
 
             dict.GetDataStoreSchema(new Type[] { typeof(zhongcj.cc.Models.BusinessObjects.DreamWeb.Article) });
+            dict.GetDataStoreSchema(new Type[] { typeof(zhongcj.cc.Models.BusinessObjects.DreamMallMember.Member) });
             dict.GetDataStoreSchema(typeof(zhongcj.cc.Models.BusinessObjects.DreamMall.Product).Assembly);
 
             DevExpress.Xpo.XpoDefault.Session = null;

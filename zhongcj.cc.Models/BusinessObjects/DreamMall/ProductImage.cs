@@ -6,6 +6,9 @@ using DevExpress.Xpo;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMall
 {
+    /// <summary>
+    /// 产品图库
+    /// </summary>
     public class ProductImage : XPObject
     {
         public ProductImage(): base(){}

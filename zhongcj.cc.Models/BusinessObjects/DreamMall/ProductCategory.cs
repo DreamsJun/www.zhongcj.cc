@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using DevExpress.Xpo;
 using System.Collections;
+using DevExpress.Data.Filtering;
+using DevExpress.Xpo.DB;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMall
 {
+    /// <summary>
+    /// 产品类型
+    /// </summary>
     public class ProductCategory : XPObject
     {
         public ProductCategory() : base() { }
@@ -85,6 +90,22 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
         }
 
         /// <summary>
+        /// 顶级类型
+        /// </summary>
+        public ProductCategory RootCategory
+        {
+            get
+            {
+                ProductCategory c = this;
+                while (c.Parent != null)
+                {
+                    c = c.Parent;
+                }
+                return c;
+            }
+        }
+
+        /// <summary>
         /// 根据关系返回子孙
         /// </summary>
         [Association("FK_Children_ProductCategory")]
@@ -153,16 +174,21 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
             return ancestors;
         }
 
-        [
-        Association,Aggregated,
-        DevExpress.ExpressApp.DC.XafDisplayName("产品类型版本"),
-        DevExpress.Persistent.Base.VisibleInDetailView(false),
-        DevExpress.Persistent.Base.VisibleInListView(false),
-        DevExpress.Persistent.Base.VisibleInLookupListView(false)        
-        ]
-        public XPCollection<ProductCategoryVersion> ProductCategoryVersion
+        
+        public XPCollection<ProductCategoryVersion> ProductCategoryVersionItems
         {
-            get { return GetCollection<ProductCategoryVersion>("ProductCategoryVersion"); }
+            get 
+            {
+
+                CriteriaOperator criter = CriteriaOperator.Parse("ProductCategory = ?", this);
+
+                XPCollection<ProductCategoryVersion> list = new XPCollection<ProductCategoryVersion>(Session
+                    , criter
+                    , new SortProperty("Y", SortingDirection.Ascending)
+                    );
+
+                return list;
+            }
         }
     }
 }

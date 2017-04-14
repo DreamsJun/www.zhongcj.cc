@@ -7,6 +7,9 @@ using zhongcj.cc.Models.Enum;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMallMember
 {
+    /// <summary>
+    /// 会员
+    /// </summary>
     public class Member : XPObject
     {
         public Member() : base() { }

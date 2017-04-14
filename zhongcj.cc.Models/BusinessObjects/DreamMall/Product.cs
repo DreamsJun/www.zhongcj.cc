@@ -5,9 +5,14 @@ using System.Text;
 using DevExpress.Xpo;
 using DevExpress.Persistent.BaseImpl;
 using zhongcj.cc.Models.BusinessObjects.DreamMallMember;
+using DevExpress.Data.Filtering;
+using DevExpress.Xpo.DB;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMall
 {
+    /// <summary>
+    /// 产品
+    /// </summary>
     public class Product : BaseObject
     {
         public Product() : base() { }
@@ -44,15 +49,6 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
             set { _ProductBrand = value; }
         }
 
-        private ProductColor _ProductColor;
-        /// <summary>
-        /// 产品颜色
-        /// </summary>
-        public ProductColor ProductColor
-        {
-            get { return _ProductColor; }
-            set { _ProductColor = value; }
-        }
 
         private string _Name;
         /// <summary>
@@ -89,23 +85,38 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMall
         /// <summary>
         /// 产品图库
         /// </summary>
-        [Association, Aggregated]
-        [DevExpress.ExpressApp.DC.XafDisplayName("产品图库")]
-        [DevExpress.Persistent.Base.VisibleInDetailView(false), DevExpress.Persistent.Base.VisibleInListView(false), DevExpress.Persistent.Base.VisibleInLookupListView(false)]
-        public XPCollection<ProductImage> ProductImage
+        public XPCollection<ProductImage> ProductImageItems
         {
-            get { return GetCollection<ProductImage>("ProductImage"); }
+            get 
+            {
+
+                CriteriaOperator criter = CriteriaOperator.Parse("Product = ?", this);
+
+                XPCollection<ProductImage> list = new XPCollection<ProductImage>(Session
+                    ,criter
+                    ,new SortProperty("Y",SortingDirection.Ascending)
+                    );
+
+                return list; 
+            }
         }
 
         /// <summary>
         /// 用户评论
-        /// </summary>
-        [Association, Aggregated]
-        [DevExpress.ExpressApp.DC.XafDisplayName("用户评论")]
-        [DevExpress.Persistent.Base.VisibleInDetailView(false), DevExpress.Persistent.Base.VisibleInListView(false), DevExpress.Persistent.Base.VisibleInLookupListView(false)]
-        public XPCollection<MemberReView> MemberReView
+        /// </summary>        
+        public XPCollection<MemberReView> MemberReViewItems
         {
-            get { return GetCollection<MemberReView>("MemberReView"); }
+            get
+            {
+                CriteriaOperator criter = CriteriaOperator.Parse("Product = ?", this);
+
+                XPCollection<MemberReView> list = new XPCollection<MemberReView>(Session
+                    , criter
+                    , new SortProperty("Y", SortingDirection.Ascending)
+                    );
+
+                return list;
+            }
         }
     }
 }

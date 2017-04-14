@@ -6,6 +6,9 @@ using DevExpress.Xpo;
 
 namespace zhongcj.cc.Models.BusinessObjects.DreamMallMember
 {
+    /// <summary>
+    /// 学历
+    /// </summary>
     public class Education : XPObject
     {
         public Education()

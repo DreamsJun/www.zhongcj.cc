@@ -91,17 +91,25 @@ namespace zhongcj.cc.Models.BusinessObjects.DreamMallMember
             }
         }
 
-        
+
 
         /// <summary>
         /// 评论图库
         /// </summary>
-        [Association, Aggregated]
-        [DevExpress.ExpressApp.DC.XafDisplayName("评论图库")]
-        [DevExpress.Persistent.Base.VisibleInDetailView(false), DevExpress.Persistent.Base.VisibleInListView(false), DevExpress.Persistent.Base.VisibleInLookupListView(false)]
+        
         public XPCollection<MemberReViewImage> MemberReViewImage
         {
-            get { return GetCollection<MemberReViewImage>("MemberReViewImage"); }
+            get 
+            {
+                var criter = DevExpress.Data.Filtering.CriteriaOperator.Parse("MemberReView = ?", this);
+
+                XPCollection<MemberReViewImage> list = new XPCollection<MemberReViewImage>(Session
+                    , criter
+                    , new SortProperty("Y", DevExpress.Xpo.DB.SortingDirection.Ascending)
+                    );
+
+                return list;
+            }
         }
 
 
