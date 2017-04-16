@@ -1,2 +1,147 @@
-﻿body {
+﻿body 
+{
+ /*   width:960px;*/
+ background:#eef1fa url(/styles/images/admin/gradient.jpg) repeat-x left top;padding:0;margin:0;
 }
+
+#admin_container
+{
+    /*margin:0 auto 0 auto;*/
+ background:url(/styles/images/admin/background.jpg) no-repeat left top;padding-left:5px;padding-right:5px;padding-bottom:10px;
+}
+
+#admin_left
+{
+    float:left;
+    width:170px;
+    /*min-height:200px;*/
+    /*background:#CFE3FB;*/
+    /*border:solid 1px orange;*/
+}
+#div_menu a{text-decoration:none;}
+
+#admin_right
+{
+    float:left;width:99%;
+    min-height:500px; 
+    height:auto !important; 
+    height:500px; 
+    overflow:visible;
+    background:#fff;
+    border:solid 1px #aecaf0;
+}
+#admin_header
+{padding:0;
+	height:70px;background:url(/styles/images/admin/admin-logo.png) no-repeat 8px 14px;}
+#login_info
+{margin-left:194px;color:#fff;font-size:12px;margin-top:20px;
+    }#login_info a{color:#fff;text-decoration:none;}#login_info a:hover{text-decoration:underline;}
+#admin_content
+{padding-left:3px;
+	}
+.navheader a{text-decoration:none;color:#748698;line-height:22px;}.navheader img{padding-top:4px;}
+	
+#c_title{height:28px;line-height:28px;padding-left:32px;font-weight:normal;font-size:12px;
+         /*background:#C7DDFD url(/styles/images/admin/utilities.png) no-repeat 6px top;*/
+         background:#C7DDFD url(/styles/images/admin/function_ico_1.png) no-repeat 8px 6px;
+         margin-bottom:10px;color:#1F7DC2;border-bottom:solid 1px #aecaf0;}
+.popupcontainer{background:#E2EAF7;padding:12px;font-size:12px;}
+#c_content{padding:10px;font-size:12px;padding-top:0;}
+/*div.c_content_opreator{background:#ecf4fe url(/styles/images/admin/search_bar.gif) 50% bottom repeat-x;padding:10px 0 10px 6px;color:#283b56;border-top:solid 1px #a3c0e8;border-left:solid 1px #a3c0e8;border-right:solid 1px #a3c0e8;}*/
+div.c_content_opreator{background:url(/styles/images/admin/operator_bg.png) repeat-x;border:solid 1px #c1c1c1;border-bottom:0 none;padding-left:10px;height:24px;}
+td.td_left{text-align:right;}
+td.td_for_head{font-size:14px;font-weight:600;height:28px;background:#EfEfEf;border:solid 1px #e6e6e6;padding-left:8px;}
+#tbl_order_d{line-height:24px;}#tbl_order_d td{}
+.btn_pay{line-height:normal;height:5px;overflow:hidden;}table.btn_pay td{padding-left:0;}
+table.add_product{height:36px;width:220px;}table.add_product span{font-size:14px;}
+
+        #login_info{margin-top:0;padding-top:16px;display:none;}
+        
+    #Clock{color:#fff;font-size:12px;padding-left:6px;font-family:Arial;}
+
+#tbl_product_edit{border-collapse:collapse;border:solid 1px #c1c1c1;}
+#tbl_product_edit td.tdl{width:65px;text-align:right;border:solid 1px #dedede;padding:9px 3px 6px 3px;vertical-align:top;}
+#tbl_product_edit td.tdc{width:auto;text-align:left;border:solid 1px #dedede;padding:6px 3px 6px 8px;vertical-align:top;}
+#tbl_product_edit td.tdr
+{background:url(/styles/images/admin/tips.gif) no-repeat 3px 7px;
+width:208px;border:solid 1px #dedede;padding:9px 3px 5px 22px;color:#888;vertical-align:top;font-family:Verdana;}
+#tbl_product_edit th{background:url(/styles/images/admin/operator_bg.png) repeat-x;border:solid 1px #c1c1c1;border-bottom:solid 3px #c5c5c5;border-bottom:solid 1px #c1c1c1;}
+#tbl_product_edit td.tf{background:url(/styles/images/admin/operator_bg.png) repeat-x;border:solid 1px #c1c1c1;border-top:solid 1px #c5c5c5;border-top:solid 1px #c1c1c1;}
+#tbl_product_edit td.info{background:#efefef url(/styles/images/admin/tips.gif) no-repeat 6px 4px;padding:5px 0 4px 24px;color:#888;}
+
+td.tips{background:url(/styles/images/admin/tips.gif) no-repeat 5px 3px;vertical-align:top;
+padding:0 8px;color:#888;padding-left:26px;line-height:22px;}
+
+
+#tbl_product_edit table.tbl_inner{border-collapse:collapse;border:0 none;}
+#tbl_product_edit table.tbl_inner td.tdl{width:65px;text-align:right;border:solid 1px #dedede;padding:6px 3px 6px 3px;vertical-align:top;border-left:0 none;border-bottom:0 none;word-break: keep-all;/*必须*/}
+#tbl_product_edit table.tbl_inner td.tdc{width:auto;text-align:left;border:solid 1px #dedede;padding:4px 3px 3px 5px;vertical-align:top;border-left:0 none;border-bottom:0 none;}
+#tbl_product_edit table.tbl_inner td.tdr
+{background:url(/styles/images/admin/tips.gif) no-repeat 3px 7px;
+width:198px;border:solid 1px #dedede;padding:8px 3px 5px 22px;color:#888;vertical-align:top;font-family:Verdana;border-right:0 none;border-bottom:0 none;word-break: keep-all;}
+
+
+.list_line_edit_a{width:65px;}
+.list_line_edit_a a{margin-right:8px;}
+.list_line_edit_a1{width:105px;}
+.list_line_edit_a1 a{margin-right:8px;}
+.list_line_edit_a2{width:125px;}
+.list_line_edit_a2 a{margin-right:8px;}
+.pointer{cursor:pointer;}
+
+.saveOK{font-size:14px;font-weight:bold;color:red;padding-bottom:15px;text-align:center;}
+
+/*.imgb img{border:solid 1px #dedede;}
+td.img50 .imgb img, td.img90 .imgb img{border:0 none;}*/
+
+
+.img50{}
+.img50 span{display:block;border:solid 1px #dedede;padding:2px;text-align:center;}
+.img50 span.imgb{width:50px;height:50px;cursor:default;background:#fff;
+text-align:center;overflow:hidden;vertical-align:middle;line-height:50px;display:table-cell;}
+*+html .img50 span.imgb {display:table-cell;font-size:40px !important;font-family:Arial;}
+.img50 span.imgb img{ _margin-top:expression(23-this.height/2);vertical-align:middle;}
+/*hack height for firefox*/body:empty .img50 {height:55px;}@-moz-document url-prefix(){ .img50 {height:55px;}}/*hack height for firefox*/
+
+.img70{}
+.img70 span{display:block;border:solid 1px #dedede;padding:2px;text-align:center;}
+.img70 span.imgb{width:70px;height:70px;cursor:default;background:#fff;
+text-align:center;overflow:hidden;vertical-align:middle;line-height:70px;display:table-cell;}
+*+html .img70 span.imgb {display:table-cell;font-size:40px !important;font-family:Arial;}
+.img70 span.imgb img{ _margin-top:expression(35-this.height/2);vertical-align:middle;}
+/*hack height for firefox*/body:empty .img70 {height:75px;}@-moz-document url-prefix(){ .img70 {height:75px;}}/*hack height for firefox*/
+
+.img90{width:96px;height:96px;overflow:hidden;}
+.img90 span.imgb{display:block;border:solid 1px #dedede;padding:2px;text-align:center;}
+.img90 span.imgb{width:90px;height:90px;cursor:default;
+text-align:center;overflow:hidden;vertical-align:middle;line-height:90px;display:table-cell;}
+*+html .img90 span.imgb {display:table-cell;font-size:80px !important;font-family:Arial;}
+.img90 span.imgb img{ _margin-top:expression(43-this.height/2);vertical-align:middle;}
+/*hack height for firefox*/body:empty .img90 {height:98px;}@-moz-document url-prefix(){ .img90 {height:98px;}}/*hack height for firefox*/
+
+#ctl00_ContentPlaceHolder1_ASPxTreeList1_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_RegionSelector1_popupCategory_treeList_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_RouteTypeSelector1_popupCategory_treeList_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_ArticleEdit1_ArticleCategory1_popupCategory_treeList_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_ProductCategorySelector1_popupCategory_treeList_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_ProductStyleSelector1_popupCategory_treeList_IE8R{display:none;}
+#ctl00_ContentPlaceHolder1_BizStyleSelector1_popupCategory_treeList_IE8R{display:none;}
+
+.checkforhide label{display:none;margin-left:0;}
+.checkforhide input{cursor:pointer;}
+
+td.td_for_head{font-size:14px;font-weight:600;height:28px;background:#EfEfEf;border:solid 1px #e6e6e6;padding-left:8px;}
+#tbl_order_d{line-height:24px;}#tbl_order_d td{}
+td.td_for_head{font-size:12px;font-weight:100;height:26px;line-height:26px;background:#EfEfEf;border:solid 1px #e6e6e6;padding-left:4px;}
+
+#order_status_btns .dxbButton{background:url("/styles/images/admin/btn_orange_24.gif") repeat-x scroll center top;color:#fff;border-top:0 none;}
+#order_status_btns .dxbDisabled{background:url("/DXR.axd?r=2_79") repeat-x scroll center top #F2F2F2;color:#999;border-top:0 none;}
+
+.dxgvHeader_Aqua{padding:3px;}
+.dxgvPagerBottomPanel_Aqua, .dxgvPagerTopPanel_Aqua{padding:0;}
+.dxgvControl_Aqua .dxpControl_Aqua td.dxpCtrl, .dxgvDisabled_Aqua .dxpControl_Aqua td.dxpCtrl{padding:3px;}
+.dxgvTable_Aqua{color:#121212;}
+.dxgvDataRow_Aqua TD.dxgv{padding:3px;}
+.dxgvDataRow_Aqua TD.dxgvCommandColumn_Aqua{padding-left:5px;}
+
+.admin_header a{text-decoration:none;line-height:16px;padding-left:5px;font-size:14px;}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <menu1 tile="产品中心">
+    <menu2 title="新增产品" url="~/admin/productedit.aspx"></menu2>
+    <menu2 title="产品列表" url="~/admin/productlist.aspx"></menu2>
+    <menu2 title="产品类别" url="~/admin/productcategorylist.aspx"></menu2>
+    <menu2 title="产品品牌" url="~/admin/productbrandlist.aspx"></menu2>
+  </menu1>
+  
+</root>
