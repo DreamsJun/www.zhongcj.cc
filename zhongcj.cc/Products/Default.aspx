@@ -676,10 +676,9 @@
         if (pageIndex != 1 ) {
 
         }
-        if (pageIndex == NaN) {
+        if (pageIndex + "" == "NaN") {
             alert("请输入跳转的页面");
         }
-        alert(pageIndex);
     }
 </script>
 </asp:Content>
